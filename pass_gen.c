@@ -4,7 +4,7 @@
 
 int main(int argc, char const *argv[])
 {
-	FILE* PASS = fopen("pass.dat", "wb+");
+	FILE* PASS = fopen("pass.mp3", "wb+");
 	char password[30][32];
 	char characters[] = {"\\!@#$%^&*()_+`~1234567890-=qwertyuiop[]QWERTYUIOP{}|asdfghkl;'ASDFGHJKL:zxcvbnm,./ZXCVBNM<>?"};
 
